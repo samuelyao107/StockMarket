@@ -1,0 +1,37 @@
+
+.filter{
+    
+    width: 700px;
+    
+}
+mat-icon{
+    color: white;
+  }
+  .example-spacer {
+      flex: 1 1 auto;
+    }
+  
+  
+    .main-body{
+      padding-top: 20px;
+      margin: 0 auto;
+      max-width: 1248px;
+      
+    }
+
+    .main-body mat-form-field{
+        width: 100%;
+      }
+  
+    mat-icon{
+      color: blue
+    }
+  
+    .delete{
+      color: red;
+    }
+  
+    .btn{
+      display: flex;
+      flex-direction: row;
+    }

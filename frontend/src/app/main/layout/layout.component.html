@@ -1,0 +1,18 @@
+<mat-toolbar >
+    <span>Stocks Management</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="primary" [routerLink]="['search']" >
+        Stocks
+       </button>
+    <span class="example-spacer1"></span>
+    <button mat-raised-button color="primary" (click)="openStockForm()" >
+     Add Stocks
+    </button>
+    <span class="example-spacer1"></span>
+    <button mat-raised-button color="warn" >
+        Logout
+    </button>
+  </mat-toolbar>
+ <div class="container">
+    <router-outlet></router-outlet>
+  </div> 

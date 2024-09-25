@@ -72,7 +72,7 @@ To run this project, you will need:
 1. Update the appsettings.json file with your SQL Server connection string:
 
 "ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=StockMarketDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+  "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DB;Trusted_Connection=True;MultipleActiveResultSets=true"
 }
 2. Apply the database migrations to set up the necessary tables:
     ```bash
